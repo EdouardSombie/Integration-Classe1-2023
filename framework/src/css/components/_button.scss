@@ -1,0 +1,25 @@
+.button {
+	--bg-color: var(--black);
+	display: inline-block;
+	padding: rem(10) rem(16);
+	border-radius: rem(6);
+	text-decoration: none;
+	cursor: pointer;
+	font-family: var(--main-font);
+	font-weight: 600;
+	font-size: rem(16);
+	border: none;
+	background-color: var(--bg-color);
+	color: var(--white);
+
+	/* Modificateurs de couleur */
+	&-primary {
+		--bg-color: var(--blue);
+	}
+	&-secondary {
+		--bg-color: var(--grey);
+	}
+	&-danger {
+		--bg-color: var(--red);
+	}
+}

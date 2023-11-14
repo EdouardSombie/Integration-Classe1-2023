@@ -1,0 +1,19 @@
+/* Couleurs */
+$white: #fff;
+$black: #000;
+$grey: #6c757d;
+$blue: #0d6efd;
+$red: #dc3545;
+
+/* Variables css */
+:root {
+	/* Couleurs */
+	--white: #{$white};
+	--black: #{$black};
+	--grey: #{$grey};
+	--blue: #{$blue};
+	--red: #{$red};
+
+	/* Typos */
+	--main-font: #{$font1};
+}
