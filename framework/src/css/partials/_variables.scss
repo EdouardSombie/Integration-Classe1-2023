@@ -11,9 +11,15 @@ $red: #dc3545;
 	--white: #{$white};
 	--black: #{$black};
 	--grey: #{$grey};
+	--grey-darker: #{darken($grey, 10%)};
 	--blue: #{$blue};
+	--blue-darker: #{darken($blue, 10%)};
 	--red: #{$red};
+	--red-darker: #{darken($red, 10%)};
 
 	/* Typos */
 	--main-font: #{$font1};
+
+	/* Transitions */
+	--transition-duration: 0.3s;
 }
