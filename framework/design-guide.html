@@ -4,6 +4,15 @@
 		<meta charset="utf-8" />
 		<title>design guide</title>
 		<link rel="stylesheet" type="text/css" href="dist/css/main.css" />
+		<style>
+			body > section {
+				margin-bottom: 5rem;
+			}
+			.content {
+				background-color: green;
+				height: 2rem;
+			}
+		</style>
 	</head>
 	<body>
 		<section>
@@ -24,6 +33,81 @@
 				<a href="#" class="button button-danger">Button</a>
 				<a href="#" class="button button-danger button-sm">Button</a>
 			</p>
+		</section>
+		<section>
+			<h1>.banner</h1>
+			<hr />
+			<div
+				class="banner"
+				style="background-image: url('assets/images/fond.jpg')"></div>
+			<br />
+			<div
+				class="banner banner-text"
+				style="background-image: url('assets/images/fond.jpg')">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+					ullamcorper nulla a ipsum imperdiet, ac porttitor dui sagittis.
+				</p>
+			</div>
+		</section>
+		<section>
+			<h1>.card</h1>
+			<hr />
+			<article class="card">
+				<img src="assets/images/totoro.jpg" />
+				<h1>Card Title</h1>
+				<p>
+					Some quick example text to build on the card title and make up the
+					bulk of the card's content.
+				</p>
+				<a href="#" class="button button-primary button-sm">Button</a>
+			</article>
+			<article class="card card-full">
+				<img src="assets/images/totoro.jpg" />
+				<h1>Card Title</h1>
+				<p>
+					Some quick example text to build on the card title and make up the
+					bulk of the card's content.
+				</p>
+				<a href="#" class="button button-primary button-sm">Button</a>
+			</article>
+		</section>
+		<section>
+			<h1>.grid</h1>
+			<div class="grid">
+				<div class="row">
+					<div class="col-2"><div class="content"></div></div>
+					<div class="col-2"><div class="content"></div></div>
+					<div class="col-8"><div class="content"></div></div>
+				</div>
+			</div>
+		</section>
+		<hr />
+		<section>
+			<h1>.navbar</h1>
+			<nav class="navbar">
+				<div class="container">
+					<a href="#" class="navbar_title">Navbar</a>
+					<ul>
+						<li>
+							<a href="#">Home</a>
+						</li>
+						<li>
+							<a href="#">Features</a>
+						</li>
+						<li>
+							<a href="#">Pricing</a>
+						</li>
+						<li>
+							<a href="#">Disabled</a>
+						</li>
+					</ul>
+					<form>
+						<input type="text" placeholder="Search" />
+						<button class="button button-outline">Search</button>
+					</form>
+				</div>
+			</nav>
 		</section>
 	</body>
 </html>

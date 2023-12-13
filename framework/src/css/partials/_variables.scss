@@ -2,8 +2,10 @@
 $white: #fff;
 $black: #000;
 $grey: #6c757d;
+$lightGrey: #f8f9fa;
 $blue: #0d6efd;
 $red: #dc3545;
+$text-color: #212529;
 
 /* Variables css */
 :root {
@@ -16,9 +18,13 @@ $red: #dc3545;
 	--blue-darker: #{darken($blue, 10%)};
 	--red: #{$red};
 	--red-darker: #{darken($red, 10%)};
-
+	--lightGrey: #{$lightGrey};
+	--text-color: #{$text-color};
 	/* Typos */
 	--main-font: #{$font1};
+
+	/* Border radius */
+	--main-radius: #{rem(6)};
 
 	/* Transitions */
 	--transition-duration: 0.3s;
