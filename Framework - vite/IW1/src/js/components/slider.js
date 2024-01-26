@@ -45,7 +45,7 @@ const sliderInit = (elem) => {
 	// nav buttons
 	const prev = document.createElement("button");
 	prev.classList.add("slider_nav_prev");
-	prev.innerHTML = "<";
+	prev.innerHTML = "";
 	prev.addEventListener("click", () => {
 		move(-1, elem);
 	});
@@ -53,7 +53,7 @@ const sliderInit = (elem) => {
 
 	const next = document.createElement("button");
 	next.classList.add("slider_nav_next");
-	next.innerHTML = ">";
+	next.innerHTML = "";
 	next.addEventListener("click", () => {
 		move(1, elem);
 	});
